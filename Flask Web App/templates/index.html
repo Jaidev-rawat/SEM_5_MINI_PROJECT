@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+     <title>FOOD_APP@Jaidev</title>
+     <style>
+        input[type=button],
+        input[type=submit] {
+          background-color: #008CBA;
+          border: none;
+          color: #fff;
+          padding: 15px 30px;
+          text-decoration: none;
+          margin: 4px 2px;
+          cursor: pointer;
+        }
+        input[type="file"]{
+       
+        z-index: -1;
+        top: 10px;
+        left: 8px;
+        font-size: 16px;
+        color: #b8b8b8;
+      }
+        
+      </style>
+
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+     <meta name="description" content="">
+     <meta name="keywords" content="">
+     <meta name="team" content="">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+     <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+     <link rel="stylesheet" href="/static/css/vegas.min.css">
+     <link rel="stylesheet" href="/static/css/font-awesome.min.css">
+
+     <!-- MAIN CSS -->
+     <link rel="stylesheet" href="/static/css/templatemo-style.css">
+
+</head>
+<body>
+
+     <!-- PRE LOADER -->
+     <section class="preloader">
+          <div class="spinner">
+
+               <span class="spinner-rotate"></span>
+               
+          </div>
+     </section>
+
+
+     
+
+
+    
+    
+
+     <!-- HOME -->
+     <section id="home">
+        <div class="overlay"></div>
+          <div class="container">
+               <div class="row">
+
+                    <div class="col-md-12 col-sm-12">
+                         <div class="home-info">
+                              <h1>We are getting ready <br>to launch new CREATIVE site!</h1>
+                              <!-- -->
+                              <br>
+                              <h2 style="color:white;">Till then <br>Upload some delicious food images<br>and we will tell you it's name and nutrition value ;)</h2>
+                              <div class="subscribe-form">
+                                <form action="/upload" method="POST" enctype="multipart/form-data">
+                                  <p><input type="File" name="file" accept="image/*" class="form-control"></p>
+                                  <br>
+                                  <p><input type ="submit"  value="UPLOAD :)"></p>
+                                </form>
+                                
+                                
+                              </div>
+                             
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+     </section>
+
+     <!-- SCRIPTS -->
+     <script src="/static/js/jquery.js"></script>
+     
+     <script src="/static/js/vegas.min.js"></script>
+     
+     <script src="/static/js/custom.js"></script>
+
+</body>
+</html>
