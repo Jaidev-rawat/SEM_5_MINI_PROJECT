@@ -3,6 +3,9 @@ than 40 different classes of Indian food by looking at any unknown image.
 i.e. On giving a food image as input it predicts what is the name of the 
 food and what is the calorie value associated with it.
 
+TEST Accuracy achieved = 85%
+
+
 
 RUN PREDICTIONS.ipynb file
 In order to run the predictions.ipynb file inside model_training folder:-
